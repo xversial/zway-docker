@@ -9,4 +9,5 @@ docker container run -d --restart unless-stopped -it \
  --name=zway \
  --device /dev/ttyAMA0:/dev/ttyAMA0 \
  -p 8083:8083 \
+ -p 8084:8084 \
  zway:latest
