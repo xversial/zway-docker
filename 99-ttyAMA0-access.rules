@@ -1,0 +1,2 @@
+# /etc/udev/rules.d/99-ttyAMA0-access.rules
+SUBSYSTEM=="tty", KERNEL=="ttyAMA0", GROUP="zway", MODE="0660"
